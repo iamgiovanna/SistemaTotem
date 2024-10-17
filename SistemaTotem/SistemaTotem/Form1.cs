@@ -10,11 +10,71 @@ using System.Windows.Forms;
 
 namespace SistemaTotem
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelFazerLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxTUsu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BoxUsu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CheckManterConectado_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelEntrarComo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelSenha_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelTitulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelSubTitulo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

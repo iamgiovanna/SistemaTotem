@@ -143,6 +143,7 @@
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "VestibularesForm";
             this.Text = "Vestibulares";
             this.panel1.ResumeLayout(false);

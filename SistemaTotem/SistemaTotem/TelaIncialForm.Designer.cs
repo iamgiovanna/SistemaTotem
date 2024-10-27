@@ -168,7 +168,7 @@
             this.Controls.Add(this.BtnVestibular);
             this.Controls.Add(this.BtnMapa);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "TelaIncialForm";
             this.Text = "Tela Incial";
             this.Load += new System.EventHandler(this.TelaIncialForm_Load);

@@ -58,6 +58,12 @@
     <Compile Include="DenunciaForm.Designer.cs">
       <DependentUpon>DenunciaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EdicaoMembroGremio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembroGremio.Designer.cs">
+      <DependentUpon>EdicaoMembroGremio.cs</DependentUpon>
+    </Compile>
     <Compile Include="EventosForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DenunciaForm.resx">
       <DependentUpon>DenunciaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembroGremio.resx">
+      <DependentUpon>EdicaoMembroGremio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EventosForm.resx">
       <DependentUpon>EventosForm.cs</DependentUpon>

@@ -64,6 +64,12 @@
     <Compile Include="EdicaoMembroGremio.Designer.cs">
       <DependentUpon>EdicaoMembroGremio.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditarEventoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarEventoForm.Designer.cs">
+      <DependentUpon>EditarEventoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EventosForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EdicaoMembroGremio.resx">
       <DependentUpon>EdicaoMembroGremio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarEventoForm.resx">
+      <DependentUpon>EditarEventoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EventosForm.resx">
       <DependentUpon>EventosForm.cs</DependentUpon>

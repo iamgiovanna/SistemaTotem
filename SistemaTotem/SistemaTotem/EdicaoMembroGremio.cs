@@ -41,5 +41,10 @@ namespace SistemaTotem
         {
 
         }
+
+        private void btnAlterarFoto_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

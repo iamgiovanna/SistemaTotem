@@ -88,11 +88,65 @@
     <Compile Include="FormEdicaoEvento1.Designer.cs">
       <DependentUpon>FormEdicaoEvento1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEdicaoEvento2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoEvento2.Designer.cs">
+      <DependentUpon>FormEdicaoEvento2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoEvento3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoEvento3.Designer.cs">
+      <DependentUpon>FormEdicaoEvento3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoEvento4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoEvento4.Designer.cs">
+      <DependentUpon>FormEdicaoEvento4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoEvento6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoEvento6.Designer.cs">
+      <DependentUpon>FormEdicaoEvento6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoEvento7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoEvento7.Designer.cs">
+      <DependentUpon>FormEdicaoEvento7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento5.Designer.cs">
+      <DependentUpon>FormEvento5.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSecretaria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormSecretaria.Designer.cs">
       <DependentUpon>FormSecretaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVest1.Designer.cs">
+      <DependentUpon>FormVest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVest2.Designer.cs">
+      <DependentUpon>FormVest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVest3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVest3.Designer.cs">
+      <DependentUpon>FormVest3.cs</DependentUpon>
     </Compile>
     <Compile Include="GremioForm.cs">
       <SubType>Form</SubType>
@@ -138,8 +192,38 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoEvento1.resx">
+      <DependentUpon>FormEdicaoEvento1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoEvento2.resx">
+      <DependentUpon>FormEdicaoEvento2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoEvento3.resx">
+      <DependentUpon>FormEdicaoEvento3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoEvento4.resx">
+      <DependentUpon>FormEdicaoEvento4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoEvento6.resx">
+      <DependentUpon>FormEdicaoEvento6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoEvento7.resx">
+      <DependentUpon>FormEdicaoEvento7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento5.resx">
+      <DependentUpon>FormEvento5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSecretaria.resx">
       <DependentUpon>FormSecretaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVest1.resx">
+      <DependentUpon>FormVest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVest2.resx">
+      <DependentUpon>FormVest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVest3.resx">
+      <DependentUpon>FormVest3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GremioForm.resx">
       <DependentUpon>GremioForm.cs</DependentUpon>

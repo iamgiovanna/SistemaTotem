@@ -126,7 +126,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.button2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(49, 227);
+            this.button2.Location = new System.Drawing.Point(59, 227);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 57);
             this.button2.TabIndex = 21;

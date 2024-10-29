@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace SistemaTotem
 {
-    public partial class EditarEventoForm : Form
+    public partial class FormVest1 : Form
     {
-        public EditarEventoForm()
+        public FormVest1()
         {
             InitializeComponent();
         }
 
-        private void btnFoto_Click(object sender, EventArgs e)
+        private void InfoENEM_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

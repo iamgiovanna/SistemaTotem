@@ -1,6 +1,6 @@
 ﻿namespace SistemaTotem
 {
-    partial class FormEdicaoEvento1
+    partial class FormEdicaoEvento2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEdicaoEvento1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEdicaoEvento2));
             this.FlowPainelEvento = new System.Windows.Forms.FlowLayoutPanel();
             this.PainelEvento = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.FotoPerfil = new System.Windows.Forms.PictureBox();
             this.btnFoto = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.InfoEvento = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BotaoExcluir = new System.Windows.Forms.Button();
             this.BotaoSalvar = new System.Windows.Forms.Button();
             this.BotaoAlterar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtEventos = new System.Windows.Forms.TextBox();
-            this.txtDesc = new System.Windows.Forms.TextBox();
             this.FlowPainelEvento.SuspendLayout();
             this.PainelEvento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).BeginInit();
@@ -51,20 +51,20 @@
             // 
             this.FlowPainelEvento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.FlowPainelEvento.Controls.Add(this.PainelEvento);
-            this.FlowPainelEvento.Location = new System.Drawing.Point(132, 35);
+            this.FlowPainelEvento.Location = new System.Drawing.Point(134, 39);
             this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(2);
             this.FlowPainelEvento.Name = "FlowPainelEvento";
             this.FlowPainelEvento.Size = new System.Drawing.Size(771, 502);
-            this.FlowPainelEvento.TabIndex = 9;
+            this.FlowPainelEvento.TabIndex = 11;
             // 
             // PainelEvento
             // 
-            this.PainelEvento.Controls.Add(this.txtEventos);
-            this.PainelEvento.Controls.Add(this.txtDesc);
             this.PainelEvento.Controls.Add(this.button2);
             this.PainelEvento.Controls.Add(this.FotoPerfil);
             this.PainelEvento.Controls.Add(this.btnFoto);
+            this.PainelEvento.Controls.Add(this.label3);
             this.PainelEvento.Controls.Add(this.label2);
+            this.PainelEvento.Controls.Add(this.InfoEvento);
             this.PainelEvento.Controls.Add(this.label1);
             this.PainelEvento.Controls.Add(this.BotaoExcluir);
             this.PainelEvento.Controls.Add(this.BotaoSalvar);
@@ -73,6 +73,20 @@
             this.PainelEvento.Name = "PainelEvento";
             this.PainelEvento.Size = new System.Drawing.Size(768, 499);
             this.PainelEvento.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(27, 488);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(77, 53);
+            this.button1.TabIndex = 12;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -104,6 +118,20 @@
             this.btnFoto.TabIndex = 24;
             this.btnFoto.UseVisualStyleBackColor = false;
             // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label3.Location = new System.Drawing.Point(200, 258);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(168, 37);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Nome do Evento";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -114,6 +142,20 @@
             this.label2.Size = new System.Drawing.Size(101, 22);
             this.label2.TabIndex = 22;
             this.label2.Text = "Descrição:";
+            // 
+            // InfoEvento
+            // 
+            this.InfoEvento.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.InfoEvento.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InfoEvento.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.InfoEvento.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.InfoEvento.Location = new System.Drawing.Point(200, 325);
+            this.InfoEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.InfoEvento.Name = "InfoEvento";
+            this.InfoEvento.Size = new System.Drawing.Size(514, 144);
+            this.InfoEvento.TabIndex = 21;
+            this.InfoEvento.Text = resources.GetString("InfoEvento.Text");
+            this.InfoEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -156,46 +198,16 @@
             this.BotaoAlterar.Text = "ALTERAR";
             this.BotaoAlterar.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(13, 533);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(65, 48);
-            this.button1.TabIndex = 10;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // txtEventos
-            // 
-            this.txtEventos.Location = new System.Drawing.Point(199, 258);
-            this.txtEventos.Multiline = true;
-            this.txtEventos.Name = "txtEventos";
-            this.txtEventos.Size = new System.Drawing.Size(148, 34);
-            this.txtEventos.TabIndex = 28;
-            // 
-            // txtDesc
-            // 
-            this.txtDesc.Location = new System.Drawing.Point(199, 325);
-            this.txtDesc.Multiline = true;
-            this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(435, 125);
-            this.txtDesc.TabIndex = 27;
-            // 
-            // FormEdicaoEvento1
+            // FormEdicaoEvento2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1035, 594);
+            this.ClientSize = new System.Drawing.Size(1040, 599);
             this.Controls.Add(this.FlowPainelEvento);
             this.Controls.Add(this.button1);
-            this.Name = "FormEdicaoEvento1";
-            this.Text = "FormEdicaoEvento1";
+            this.Name = "FormEdicaoEvento2";
+            this.Text = "FormEdicaoEvento2";
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
             this.PainelEvento.PerformLayout();
@@ -205,18 +217,19 @@
         }
 
         #endregion
+
         private System.Windows.Forms.FlowLayoutPanel FlowPainelEvento;
         private System.Windows.Forms.Panel PainelEvento;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox FotoPerfil;
         private System.Windows.Forms.Button btnFoto;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label InfoEvento;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BotaoExcluir;
         private System.Windows.Forms.Button BotaoSalvar;
         private System.Windows.Forms.Button BotaoAlterar;
-        private System.Windows.Forms.TextBox txtEventos;
-        private System.Windows.Forms.TextBox txtDesc;
     }
 }

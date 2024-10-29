@@ -117,25 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="InfoProvasEmais.Text" xml:space="preserve">
+    <value>Provas da 3ª série do Ensino Médio:
+30 e 31 de outubro de 2024
+
+Provas das 1ª e 2ª séries do Ensino Médio:
+11 e 12 de novembro de 2024
+
+Publicação do gabarito das provas no portal da Fundação Vunesp:
+09 de dezembro de 2024.
+
+Divulgação do desempenho do estudante e da classificação prévia:
+09 de janeiro de 2025.
+
+Período de recursos contra o desempenho e a classificação:
+ 09 e 10 de janeiro de 2025.</value>
+  </data>
+  <data name="InfoListas.Text" xml:space="preserve">
+    <value>1ª, 2ª e 3ª listas de chamada unificada para ingresso no 1ºsemestre de 2025:
+20  e 27 de janeiro e 03 de fevereiro sucessivamente (previsão).
+
+Divulgação das vagas dos cursos de graduação do 2º semestre de 2025:
+Março
+
+1ª lista de chamada unificada para ingresso no 2º semestre de 2025:
+Abril (previsão)</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="FotoPerfil.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAA1hJREFUeF7tncuKFEEQRWujol/gQt2p+Nz4Sfo5vnV0oV8g4g/4/AcV3auIioKP
-        nc97GZsMmtvT9ejIrMmMAweGZsjIiFtT1QzdVV0QBEEQBEEQBIETh+F9+O2/D+BxOBfmvr9JsLnP8O+S
-        fO0QLM3c9zcZHlnLzS28B0sz9/1Nhn/Sqjn6FZZm7vubjGrMWhq1J+uuRzVlLY3ak3XXo5qylkbtybrr
-        UU1ZS6P2ZJ09Z+A1+AL+gKqJmmSP7PUqPA2LsQ/egr+h2mgLsvctuBdmhcN/AtWmWvQxzBrCbag20rI3
-        YRZ4zm/5tLPKX/AUdIcXXLWBsOsuQ3deQlU87Lrn0J3vUBUPt/+v5I4qHCbdUUXDpDuqaJh0RxUNk+6o
-        omHSHVU0TLqjioZJd1TRMOmOKhom3VFFw6Q7qmiYdEcVDZPuqKLW2lE9W91RRa21o3q2uqOKWmtH9Wx1
-        RxW11o7q2eqOKmqtHdWz1R1V1Fo7qmerO6qotXZUz1Z3VFFr7aiere6ootbaUT1b3VFFrbWjera6o4pa
-        58oBeHD7x0monq3uqKLWuXEMPoP86CD39xaeh2P5A5d7trqjilrnxFn4Cap9jg0hAujJTsOnb+AYIoAe
-        rBv+wjHXhAhgDX2Hz2sCL8xDUWtZ3VFFrZuCR+fQAfUdPuW3WsZQ/V/ABfgOci0epU8h38msY8jw+XtH
-        4RiqDoDDV2tyYBzwKoYOf6e11lF1AIsjX7lqcDmHT6oNgOd8tZ51eYC5h0+qDWA//AnVmtYv8BwcMvyP
-        cBPDJ2p9qzuqqHUKvOCqNZfl4HMf+Quqvgbw3U7fwfZx08MnVQdATsD3UK09xE2edizVB0CmhuA1fNJE
-        AGRsCJ7DJ80EQIaG4D180lQApG8IOYZPmguArAsh1/BJkwEQDvgDXK7H13INnzQbADkC78LX8BW8A3nn
-        25w0HcAciAAKEwEUJgIoTARQmAigMBFAYSKAwkQAhYkAChMBFCYCKEzxAHZ66E3rZnnoT9y6eLVZbl18
-        BariYdddhO7wFu2L71uFSc7kJMzCDag20bJ8pkw2+LiOR1BtpEUfwj0wKwzhOmz5dMQPE/PIzz58C68J
-        fHIE3wG08GwB9sheL8Fs5/wgCIIgCIIgCGqh6/4BTrffWHX9nLwAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAH5JREFUSEvt1iEOgDAQRNFeggbufxIMBIICwXGW2TKCoDBTRPcna7biJRVNUxR9
+        zcwyZsKMXOkjemC8hWttgDrMXkizE9PzSBeQQHUBCVQXkPqoB2gr5P1IZK71AfsNfl/1wCN9wAL3Aq8T
+        sHbx59dn5bpOAB33F27mKmq6lC5GBmxHVtoESQAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

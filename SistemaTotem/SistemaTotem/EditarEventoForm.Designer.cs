@@ -56,19 +56,17 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.TxtNome);
             this.panel1.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(105, 107);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(79, 87);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(816, 426);
+            this.panel1.Size = new System.Drawing.Size(612, 346);
             this.panel1.TabIndex = 1;
             // 
             // btnSalvar
             // 
             this.btnSalvar.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(685, 315);
-            this.btnSalvar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSalvar.Location = new System.Drawing.Point(504, 256);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(100, 38);
+            this.btnSalvar.Size = new System.Drawing.Size(75, 31);
             this.btnSalvar.TabIndex = 8;
             this.btnSalvar.Text = "SALVAR";
             this.btnSalvar.UseVisualStyleBackColor = true;
@@ -76,10 +74,9 @@
             // btnAlterarFoto
             // 
             this.btnAlterarFoto.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterarFoto.Location = new System.Drawing.Point(685, 361);
-            this.btnAlterarFoto.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAlterarFoto.Location = new System.Drawing.Point(504, 293);
             this.btnAlterarFoto.Name = "btnAlterarFoto";
-            this.btnAlterarFoto.Size = new System.Drawing.Size(100, 38);
+            this.btnAlterarFoto.Size = new System.Drawing.Size(75, 31);
             this.btnAlterarFoto.TabIndex = 7;
             this.btnAlterarFoto.Text = "ALTERAR ";
             this.btnAlterarFoto.UseVisualStyleBackColor = true;
@@ -87,10 +84,9 @@
             // btnAlterar
             // 
             this.btnAlterar.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterar.Location = new System.Drawing.Point(685, 264);
-            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAlterar.Location = new System.Drawing.Point(504, 214);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(100, 43);
+            this.btnAlterar.Size = new System.Drawing.Size(75, 35);
             this.btnAlterar.TabIndex = 6;
             this.btnAlterar.Text = "EXCLUIR";
             this.btnAlterar.UseVisualStyleBackColor = true;
@@ -99,10 +95,9 @@
             // 
             this.FotoPerfil.BackColor = System.Drawing.Color.White;
             this.FotoPerfil.Image = ((System.Drawing.Image)(resources.GetObject("FotoPerfil.Image")));
-            this.FotoPerfil.Location = new System.Drawing.Point(378, 83);
-            this.FotoPerfil.Margin = new System.Windows.Forms.Padding(4);
+            this.FotoPerfil.Location = new System.Drawing.Point(249, 56);
             this.FotoPerfil.Name = "FotoPerfil";
-            this.FotoPerfil.Size = new System.Drawing.Size(89, 98);
+            this.FotoPerfil.Size = new System.Drawing.Size(106, 104);
             this.FotoPerfil.TabIndex = 5;
             this.FotoPerfil.TabStop = false;
             // 
@@ -110,22 +105,21 @@
             // 
             this.btnFoto.BackColor = System.Drawing.Color.White;
             this.btnFoto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFoto.Location = new System.Drawing.Point(138, 35);
-            this.btnFoto.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFoto.Location = new System.Drawing.Point(104, 28);
             this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Size = new System.Drawing.Size(559, 204);
+            this.btnFoto.Size = new System.Drawing.Size(419, 166);
             this.btnFoto.TabIndex = 4;
             this.btnFoto.UseVisualStyleBackColor = false;
+            this.btnFoto.Click += new System.EventHandler(this.btnFoto_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(170, 349);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(128, 284);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 28);
+            this.label2.Size = new System.Drawing.Size(101, 22);
             this.label2.TabIndex = 3;
             this.label2.Text = "Descrição:";
             // 
@@ -133,10 +127,9 @@
             // 
             this.txtFuncao.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txtFuncao.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFuncao.Location = new System.Drawing.Point(315, 350);
-            this.txtFuncao.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFuncao.Location = new System.Drawing.Point(236, 284);
             this.txtFuncao.Name = "txtFuncao";
-            this.txtFuncao.Size = new System.Drawing.Size(260, 27);
+            this.txtFuncao.Size = new System.Drawing.Size(196, 23);
             this.txtFuncao.TabIndex = 2;
             // 
             // label1
@@ -144,29 +137,28 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(170, 292);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(128, 237);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 28);
+            this.label1.Size = new System.Drawing.Size(74, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Evento:";
             // 
             // TxtNome
             // 
             this.TxtNome.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNome.Location = new System.Drawing.Point(315, 293);
-            this.TxtNome.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtNome.Location = new System.Drawing.Point(236, 238);
             this.TxtNome.Name = "TxtNome";
-            this.TxtNome.Size = new System.Drawing.Size(260, 27);
+            this.TxtNome.Size = new System.Drawing.Size(196, 23);
             this.TxtNome.TabIndex = 0;
             // 
             // EditarEventoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1027, 640);
+            this.ClientSize = new System.Drawing.Size(770, 520);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditarEventoForm";
             this.Text = "Editar - Eventos";
             this.panel1.ResumeLayout(false);

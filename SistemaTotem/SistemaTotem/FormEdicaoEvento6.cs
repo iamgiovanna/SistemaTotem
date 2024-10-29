@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemaTotem
 {
-    public partial class EditarEventoForm : Form
+    public partial class FormEdicaoEvento6 : Form
     {
-        public EditarEventoForm()
+        public FormEdicaoEvento6()
         {
             InitializeComponent();
-        }
-
-        private void btnFoto_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

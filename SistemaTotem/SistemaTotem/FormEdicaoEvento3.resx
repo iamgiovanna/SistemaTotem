@@ -121,7 +121,7 @@
   <data name="FotoPerfil.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAA1hJREFUeF7tncuKFEEQRWujol/gQt2p+Nz4Sfo5vnV0oV8g4g/4/AcV3auIioKP
+        DAAACwwBP0AiyAAAA1hJREFUeF7tncuKFEEQRWujol/gQt2p+Nz4Sfo5vnV0oV8g4g/4/AcV3auIioKP
         nc97GZsMmtvT9ejIrMmMAweGZsjIiFtT1QzdVV0QBEEQBEEQBIETh+F9+O2/D+BxOBfmvr9JsLnP8O+S
         fO0QLM3c9zcZHlnLzS28B0sz9/1Nhn/Sqjn6FZZm7vubjGrMWhq1J+uuRzVlLY3ak3XXo5qylkbtybrr
         UU1ZS6P2ZJ09Z+A1+AL+gKqJmmSP7PUqPA2LsQ/egr+h2mgLsvctuBdmhcN/AtWmWvQxzBrCbag20rI3
@@ -136,6 +136,20 @@
         25w0HcAciAAKEwEUJgIoTARQmAigMBFAYSKAwkQAhYkAChMBFCYCKEzxAHZ66E3rZnnoT9y6eLVZbl18
         BariYdddhO7wFu2L71uFSc7kJMzCDag20bJ8pkw2+LiOR1BtpEUfwj0wKwzhOmz5dMQPE/PIzz58C68J
         fHIE3wG08GwB9sheL8Fs5/wgCIIgCIIgCGqh6/4BTrffWHX9nLwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="InfoEvento.Text" xml:space="preserve">
+    <value>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+ sunt in culpa qui officia deserunt mollit anim id est laborum."</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAH5JREFUSEvt1iEOgDAQRNFeggbufxIMBIICwXGW2TKCoDBTRPcna7biJRVNUxR9
+        zcwyZsKMXOkjemC8hWttgDrMXkizE9PzSBeQQHUBCVQXkPqoB2gr5P1IZK71AfsNfl/1wCN9wAL3Aq8T
+        sHbx59dn5bpOAB33F27mKmq6lC5GBmxHVtoESQAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

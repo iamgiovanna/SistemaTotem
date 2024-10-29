@@ -21,5 +21,15 @@ namespace SistemaTotem
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotaoAlterar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

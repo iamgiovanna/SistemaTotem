@@ -109,6 +109,7 @@
             this.BtnVoltar.Size = new System.Drawing.Size(59, 48);
             this.BtnVoltar.TabIndex = 15;
             this.BtnVoltar.UseVisualStyleBackColor = false;
+            this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
             // button1
             // 

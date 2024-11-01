@@ -64,10 +64,10 @@
             this.panel1.Controls.Add(this.Btn2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.Btn1);
-            this.panel1.Location = new System.Drawing.Point(207, 131);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(161, 125);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1113, 493);
+            this.panel1.Size = new System.Drawing.Size(1135, 509);
             this.panel1.TabIndex = 2;
             // 
             // Btn7
@@ -77,7 +77,7 @@
             this.Btn7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn7.Image = ((System.Drawing.Image)(resources.GetObject("Btn7.Image")));
             this.Btn7.Location = new System.Drawing.Point(764, 306);
-            this.Btn7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn7.Margin = new System.Windows.Forms.Padding(2);
             this.Btn7.Name = "Btn7";
             this.Btn7.Size = new System.Drawing.Size(194, 149);
             this.Btn7.TabIndex = 12;
@@ -90,7 +90,7 @@
             this.Btn6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn6.Image = ((System.Drawing.Image)(resources.GetObject("Btn6.Image")));
             this.Btn6.Location = new System.Drawing.Point(478, 306);
-            this.Btn6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn6.Margin = new System.Windows.Forms.Padding(2);
             this.Btn6.Name = "Btn6";
             this.Btn6.Size = new System.Drawing.Size(194, 149);
             this.Btn6.TabIndex = 11;
@@ -103,7 +103,7 @@
             this.Btn5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn5.Image = ((System.Drawing.Image)(resources.GetObject("Btn5.Image")));
             this.Btn5.Location = new System.Drawing.Point(180, 306);
-            this.Btn5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn5.Margin = new System.Windows.Forms.Padding(2);
             this.Btn5.Name = "Btn5";
             this.Btn5.Size = new System.Drawing.Size(194, 149);
             this.Btn5.TabIndex = 10;
@@ -116,7 +116,7 @@
             this.Btn4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn4.Image = ((System.Drawing.Image)(resources.GetObject("Btn4.Image")));
             this.Btn4.Location = new System.Drawing.Point(861, 90);
-            this.Btn4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn4.Margin = new System.Windows.Forms.Padding(2);
             this.Btn4.Name = "Btn4";
             this.Btn4.Size = new System.Drawing.Size(194, 149);
             this.Btn4.TabIndex = 9;
@@ -129,7 +129,7 @@
             this.Btn3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn3.Image = ((System.Drawing.Image)(resources.GetObject("Btn3.Image")));
             this.Btn3.Location = new System.Drawing.Point(609, 90);
-            this.Btn3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn3.Margin = new System.Windows.Forms.Padding(2);
             this.Btn3.Name = "Btn3";
             this.Btn3.Size = new System.Drawing.Size(194, 149);
             this.Btn3.TabIndex = 8;
@@ -142,7 +142,7 @@
             this.Btn2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn2.Image = ((System.Drawing.Image)(resources.GetObject("Btn2.Image")));
             this.Btn2.Location = new System.Drawing.Point(335, 90);
-            this.Btn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn2.Margin = new System.Windows.Forms.Padding(2);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(194, 149);
             this.Btn2.TabIndex = 7;
@@ -167,7 +167,7 @@
             this.Btn1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn1.Image = ((System.Drawing.Image)(resources.GetObject("Btn1.Image")));
             this.Btn1.Location = new System.Drawing.Point(66, 90);
-            this.Btn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn1.Margin = new System.Windows.Forms.Padding(2);
             this.Btn1.Name = "Btn1";
             this.Btn1.Size = new System.Drawing.Size(194, 149);
             this.Btn1.TabIndex = 4;
@@ -180,12 +180,13 @@
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVoltar.ForeColor = System.Drawing.Color.White;
             this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
-            this.BtnVoltar.Location = new System.Drawing.Point(75, 630);
-            this.BtnVoltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnVoltar.Location = new System.Drawing.Point(46, 579);
+            this.BtnVoltar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnVoltar.Name = "BtnVoltar";
             this.BtnVoltar.Size = new System.Drawing.Size(56, 55);
             this.BtnVoltar.TabIndex = 6;
             this.BtnVoltar.UseVisualStyleBackColor = false;
+            this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
             // EventosForm
             // 

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaIncialForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnDenuncia = new System.Windows.Forms.Button();
             this.BtnSecretaria = new System.Windows.Forms.Button();
             this.BtnEventos = new System.Windows.Forms.Button();
             this.BtnVestibular = new System.Windows.Forms.Button();
@@ -51,18 +51,19 @@
             this.panel1.Size = new System.Drawing.Size(1216, 54);
             this.panel1.TabIndex = 0;
             // 
-            // button2
+            // btnDenuncia
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(881, 216);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 46);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Denúncia";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnDenuncia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.btnDenuncia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDenuncia.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDenuncia.ForeColor = System.Drawing.Color.White;
+            this.btnDenuncia.Location = new System.Drawing.Point(881, 216);
+            this.btnDenuncia.Name = "btnDenuncia";
+            this.btnDenuncia.Size = new System.Drawing.Size(197, 46);
+            this.btnDenuncia.TabIndex = 15;
+            this.btnDenuncia.Text = "Denúncia";
+            this.btnDenuncia.UseVisualStyleBackColor = false;
+            this.btnDenuncia.Click += new System.EventHandler(this.btnDenuncia_Click);
             // 
             // BtnSecretaria
             // 
@@ -76,6 +77,7 @@
             this.BtnSecretaria.TabIndex = 14;
             this.BtnSecretaria.Text = "Secretária";
             this.BtnSecretaria.UseVisualStyleBackColor = false;
+            this.BtnSecretaria.Click += new System.EventHandler(this.BtnSecretaria_Click);
             // 
             // BtnEventos
             // 
@@ -89,6 +91,7 @@
             this.BtnEventos.TabIndex = 11;
             this.BtnEventos.Text = "Eventos";
             this.BtnEventos.UseVisualStyleBackColor = false;
+            this.BtnEventos.Click += new System.EventHandler(this.BtnEventos_Click);
             // 
             // BtnVestibular
             // 
@@ -102,6 +105,7 @@
             this.BtnVestibular.TabIndex = 13;
             this.BtnVestibular.Text = "Vestibulares";
             this.BtnVestibular.UseVisualStyleBackColor = false;
+            this.BtnVestibular.Click += new System.EventHandler(this.BtnVestibular_Click);
             // 
             // BtnMapa
             // 
@@ -115,6 +119,7 @@
             this.BtnMapa.TabIndex = 12;
             this.BtnMapa.Text = "Mapa - Etec";
             this.BtnMapa.UseVisualStyleBackColor = false;
+            this.BtnMapa.Click += new System.EventHandler(this.BtnMapa_Click);
             // 
             // BtnGremio
             // 
@@ -128,6 +133,7 @@
             this.BtnGremio.TabIndex = 16;
             this.BtnGremio.Text = "Grêmio";
             this.BtnGremio.UseVisualStyleBackColor = false;
+            this.BtnGremio.Click += new System.EventHandler(this.BtnGremio_Click);
             // 
             // pictureBox2
             // 
@@ -162,7 +168,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.BtnGremio);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnDenuncia);
             this.Controls.Add(this.BtnSecretaria);
             this.Controls.Add(this.BtnEventos);
             this.Controls.Add(this.BtnVestibular);
@@ -181,7 +187,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnDenuncia;
         private System.Windows.Forms.Button BtnSecretaria;
         private System.Windows.Forms.Button BtnEventos;
         private System.Windows.Forms.Button BtnVestibular;

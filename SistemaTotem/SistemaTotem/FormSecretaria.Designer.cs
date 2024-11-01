@@ -41,7 +41,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.BotaoExcluir = new System.Windows.Forms.Button();
             this.BotaoSalvar = new System.Windows.Forms.Button();
             this.BotaoAlterar = new System.Windows.Forms.Button();
@@ -194,20 +194,20 @@
     "to!!!\r\n";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btnVoltar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(53, 603);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 48);
-            this.button1.TabIndex = 19;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.Location = new System.Drawing.Point(53, 603);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(59, 48);
+            this.btnVoltar.TabIndex = 19;
+            this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.button1_Click);
             // 
             // BotaoExcluir
             // 
@@ -248,7 +248,7 @@
             this.ClientSize = new System.Drawing.Size(1391, 687);
             this.Controls.Add(this.BotaoExcluir);
             this.Controls.Add(this.BotaoSalvar);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.BotaoAlterar);
             this.Controls.Add(this.panel2);
@@ -278,7 +278,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button BotaoExcluir;
         private System.Windows.Forms.Button BotaoSalvar;
         private System.Windows.Forms.Button BotaoAlterar;

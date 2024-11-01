@@ -64,6 +64,54 @@
     <Compile Include="EdicaoMembroGremio.Designer.cs">
       <DependentUpon>EdicaoMembroGremio.cs</DependentUpon>
     </Compile>
+    <Compile Include="EdicaoMembroGremio8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembroGremio8.Designer.cs">
+      <DependentUpon>EdicaoMembroGremio8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio10.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio3.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio4.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio5cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio5cs.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio5cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio6.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio7.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio9.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio9.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditarEventoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +124,11 @@
     <Compile Include="EventosForm.Designer.cs">
       <DependentUpon>EventosForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="FormEdicaoEvento1.cs">
       <SubType>Form</SubType>
@@ -123,6 +171,12 @@
     </Compile>
     <Compile Include="FormEvento5.Designer.cs">
       <DependentUpon>FormEvento5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicaoMembrosGremio2.Designer.cs">
+      <DependentUpon>EdicaoMembrosGremio2.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSecretaria.cs">
       <SubType>Form</SubType>
@@ -183,14 +237,38 @@
     <EmbeddedResource Include="EdicaoMembroGremio.resx">
       <DependentUpon>EdicaoMembroGremio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembroGremio8.resx">
+      <DependentUpon>EdicaoMembroGremio8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio10.resx">
+      <DependentUpon>EdicaoMembrosGremio10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio3.resx">
+      <DependentUpon>EdicaoMembrosGremio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio4.resx">
+      <DependentUpon>EdicaoMembrosGremio4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio5cs.resx">
+      <DependentUpon>EdicaoMembrosGremio5cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio6.resx">
+      <DependentUpon>EdicaoMembrosGremio6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio7.resx">
+      <DependentUpon>EdicaoMembrosGremio7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio9.resx">
+      <DependentUpon>EdicaoMembrosGremio9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditarEventoForm.resx">
       <DependentUpon>EditarEventoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EventosForm.resx">
       <DependentUpon>EventosForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormEdicaoEvento1.resx">
       <DependentUpon>FormEdicaoEvento1.cs</DependentUpon>
@@ -212,6 +290,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEvento5.resx">
       <DependentUpon>FormEvento5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicaoMembrosGremio2.resx">
+      <DependentUpon>EdicaoMembrosGremio2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSecretaria.resx">
       <DependentUpon>FormSecretaria.cs</DependentUpon>

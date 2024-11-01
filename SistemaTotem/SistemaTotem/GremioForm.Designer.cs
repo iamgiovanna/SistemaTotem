@@ -64,7 +64,7 @@
             this.Foto1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.LabelInstaDaChapa = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -534,19 +534,20 @@
             this.LabelInstaDaChapa.Text = "@instaChapaQualquer;\r\n";
             this.LabelInstaDaChapa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // button1
+            // btnVoltar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(39, 592);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 53);
-            this.button1.TabIndex = 16;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
+            this.btnVoltar.Location = new System.Drawing.Point(39, 570);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(67, 53);
+            this.btnVoltar.TabIndex = 16;
+            this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // button2
             // 
@@ -591,7 +592,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.LabelInstaDaChapa);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.PainelGremio);
@@ -645,7 +646,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel PainelTituloChapa;
         private System.Windows.Forms.Label LabelTituloChapa;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button button4;

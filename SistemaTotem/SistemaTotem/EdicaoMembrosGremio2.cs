@@ -10,20 +10,16 @@ using System.Windows.Forms;
 
 namespace SistemaTotem
 {
-    public partial class EventosForm : Form
+    public partial class EdicaoMembrosGremio2 : Form
     {
-        public EventosForm()
+        public EdicaoMembrosGremio2()
         {
             InitializeComponent();
         }
 
-        private void BtnVoltar_Click(object sender, EventArgs e)
+        private void FormMembrosGremio_Load(object sender, EventArgs e)
         {
 
-            //EVENTO para voltar a tela inicial
-            TelaIncialForm telaIncialForm = new TelaIncialForm();
-            telaIncialForm.Show();
-            this.Hide();
         }
     }
 }

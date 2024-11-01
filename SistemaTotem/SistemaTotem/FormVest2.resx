@@ -117,6 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>
+Provas da 3ª série do Ensino Médio:
+30 e 31 de outubro de 2024
+
+Provas das 1ª e 2ª séries do Ensino Médio:
+11 e 12 de novembro de 2024
+
+Publicação do gabarito das provas no portal da Fundação Vunesp:
+09 de dezembro de 2024.
+
+Divulgação do desempenho do estudante e da classificação prévia:
+09 de janeiro de 2025.
+
+Período de recursos contra o desempenho e a classificação:
+ 09 e 10 de janeiro de 2025.
+</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>
+
+1ª, 2ª e 3ª listas de chamada unificada para ingresso no 1ºsemestre de 2025:
+20  e 27 de janeiro e 03 de fevereiro sucessivamente (previsão).
+
+Divulgação das vagas dos cursos de graduação do 2º semestre de 2025:
+Março
+
+1ª lista de chamada unificada para ingresso no 2º semestre de 2025:
+Abril (previsão)
+</value>
+  </data>
   <data name="InfoProvasEmais.Text" xml:space="preserve">
     <value>Provas da 3ª série do Ensino Médio:
 30 e 31 de outubro de 2024
@@ -132,16 +163,6 @@ Divulgação do desempenho do estudante e da classificação prévia:
 
 Período de recursos contra o desempenho e a classificação:
  09 e 10 de janeiro de 2025.</value>
-  </data>
-  <data name="InfoListas.Text" xml:space="preserve">
-    <value>1ª, 2ª e 3ª listas de chamada unificada para ingresso no 1ºsemestre de 2025:
-20  e 27 de janeiro e 03 de fevereiro sucessivamente (previsão).
-
-Divulgação das vagas dos cursos de graduação do 2º semestre de 2025:
-Março
-
-1ª lista de chamada unificada para ingresso no 2º semestre de 2025:
-Abril (previsão)</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

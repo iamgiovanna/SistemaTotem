@@ -34,23 +34,25 @@
             this.SubTituloListas = new System.Windows.Forms.Label();
             this.SubTituloDatasProvas = new System.Windows.Forms.Label();
             this.InfoProvasEmais = new System.Windows.Forms.Label();
-            this.InfoListas = new System.Windows.Forms.Label();
             this.TituloProvaoPaulista = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.SiteInfoOfficial);
             this.panel1.Controls.Add(this.SubTituloListas);
             this.panel1.Controls.Add(this.SubTituloDatasProvas);
             this.panel1.Controls.Add(this.InfoProvasEmais);
-            this.panel1.Controls.Add(this.InfoListas);
             this.panel1.Controls.Add(this.TituloProvaoPaulista);
             this.panel1.Location = new System.Drawing.Point(145, 38);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
@@ -60,7 +62,7 @@
             // 
             // SiteInfoOfficial
             // 
-            this.SiteInfoOfficial.BackColor = System.Drawing.Color.FloralWhite;
+            this.SiteInfoOfficial.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.SiteInfoOfficial.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SiteInfoOfficial.Location = new System.Drawing.Point(207, 389);
             this.SiteInfoOfficial.Name = "SiteInfoOfficial";
@@ -106,19 +108,6 @@
             this.InfoProvasEmais.TabIndex = 2;
             this.InfoProvasEmais.Text = resources.GetString("InfoProvasEmais.Text");
             this.InfoProvasEmais.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // InfoListas
-            // 
-            this.InfoListas.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.InfoListas.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoListas.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.InfoListas.Location = new System.Drawing.Point(54, 136);
-            this.InfoListas.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.InfoListas.Name = "InfoListas";
-            this.InfoListas.Size = new System.Drawing.Size(288, 231);
-            this.InfoListas.TabIndex = 1;
-            this.InfoListas.Text = resources.GetString("InfoListas.Text");
-            this.InfoListas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TituloProvaoPaulista
             // 
@@ -179,6 +168,30 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(53, 128);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(285, 231);
+            this.textBox1.TabIndex = 6;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.textBox2.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(368, 128);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(384, 246);
+            this.textBox2.TabIndex = 7;
+            this.textBox2.Text = resources.GetString("textBox2.Text");
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // FormVest2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,11 +218,12 @@
         private System.Windows.Forms.Label SubTituloListas;
         private System.Windows.Forms.Label SubTituloDatasProvas;
         private System.Windows.Forms.Label InfoProvasEmais;
-        private System.Windows.Forms.Label InfoListas;
         private System.Windows.Forms.Label TituloProvaoPaulista;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

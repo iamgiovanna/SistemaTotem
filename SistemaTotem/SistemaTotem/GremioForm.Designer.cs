@@ -50,18 +50,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.PainelTituloChapa = new System.Windows.Forms.Panel();
             this.LabelTituloChapa = new System.Windows.Forms.Label();
-            this.Foto10 = new System.Windows.Forms.Button();
-            this.Foto9 = new System.Windows.Forms.Button();
-            this.Foto8 = new System.Windows.Forms.Button();
-            this.Foto7 = new System.Windows.Forms.Button();
-            this.Foto6 = new System.Windows.Forms.Button();
-            this.Foto5 = new System.Windows.Forms.Button();
-            this.Foto4 = new System.Windows.Forms.Button();
+            this.Membro10 = new System.Windows.Forms.Button();
+            this.Membro9 = new System.Windows.Forms.Button();
+            this.Membro8 = new System.Windows.Forms.Button();
+            this.Membro7 = new System.Windows.Forms.Button();
+            this.Membro6 = new System.Windows.Forms.Button();
+            this.Membro5 = new System.Windows.Forms.Button();
+            this.Membro4 = new System.Windows.Forms.Button();
             this.LabelNome3 = new System.Windows.Forms.Label();
             this.LabelFuncao3 = new System.Windows.Forms.Label();
-            this.Foto3 = new System.Windows.Forms.Button();
-            this.Foto2 = new System.Windows.Forms.Button();
-            this.Foto1 = new System.Windows.Forms.Button();
+            this.Membro3 = new System.Windows.Forms.Button();
+            this.Membro2 = new System.Windows.Forms.Button();
+            this.Membro1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.LabelInstaDaChapa = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.Button();
@@ -95,18 +95,18 @@
             this.PainelGremio.Controls.Add(this.label1);
             this.PainelGremio.Controls.Add(this.label2);
             this.PainelGremio.Controls.Add(this.PainelTituloChapa);
-            this.PainelGremio.Controls.Add(this.Foto10);
-            this.PainelGremio.Controls.Add(this.Foto9);
-            this.PainelGremio.Controls.Add(this.Foto8);
-            this.PainelGremio.Controls.Add(this.Foto7);
-            this.PainelGremio.Controls.Add(this.Foto6);
-            this.PainelGremio.Controls.Add(this.Foto5);
-            this.PainelGremio.Controls.Add(this.Foto4);
+            this.PainelGremio.Controls.Add(this.Membro10);
+            this.PainelGremio.Controls.Add(this.Membro9);
+            this.PainelGremio.Controls.Add(this.Membro8);
+            this.PainelGremio.Controls.Add(this.Membro7);
+            this.PainelGremio.Controls.Add(this.Membro6);
+            this.PainelGremio.Controls.Add(this.Membro5);
+            this.PainelGremio.Controls.Add(this.Membro4);
             this.PainelGremio.Controls.Add(this.LabelNome3);
             this.PainelGremio.Controls.Add(this.LabelFuncao3);
-            this.PainelGremio.Controls.Add(this.Foto3);
-            this.PainelGremio.Controls.Add(this.Foto2);
-            this.PainelGremio.Controls.Add(this.Foto1);
+            this.PainelGremio.Controls.Add(this.Membro3);
+            this.PainelGremio.Controls.Add(this.Membro2);
+            this.PainelGremio.Controls.Add(this.Membro1);
             this.PainelGremio.Location = new System.Drawing.Point(192, 121);
             this.PainelGremio.Name = "PainelGremio";
             this.PainelGremio.Size = new System.Drawing.Size(1039, 502);
@@ -357,97 +357,103 @@
             this.LabelTituloChapa.TabIndex = 0;
             this.LabelTituloChapa.Text = "Chapa";
             // 
-            // Foto10
+            // Membro10
             // 
-            this.Foto10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto10.BackgroundImage")));
-            this.Foto10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto10.Image = ((System.Drawing.Image)(resources.GetObject("Foto10.Image")));
-            this.Foto10.Location = new System.Drawing.Point(856, 296);
-            this.Foto10.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto10.Name = "Foto10";
-            this.Foto10.Size = new System.Drawing.Size(122, 107);
-            this.Foto10.TabIndex = 52;
-            this.Foto10.UseVisualStyleBackColor = true;
-            this.Foto10.Click += new System.EventHandler(this.Foto10_Click);
+            this.Membro10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro10.BackgroundImage")));
+            this.Membro10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro10.Image = ((System.Drawing.Image)(resources.GetObject("Membro10.Image")));
+            this.Membro10.Location = new System.Drawing.Point(856, 296);
+            this.Membro10.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro10.Name = "Membro10";
+            this.Membro10.Size = new System.Drawing.Size(122, 107);
+            this.Membro10.TabIndex = 52;
+            this.Membro10.UseVisualStyleBackColor = true;
+            this.Membro10.Click += new System.EventHandler(this.Foto10_Click);
             // 
-            // Foto9
+            // Membro9
             // 
-            this.Foto9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto9.BackgroundImage")));
-            this.Foto9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto9.Image = ((System.Drawing.Image)(resources.GetObject("Foto9.Image")));
-            this.Foto9.Location = new System.Drawing.Point(636, 296);
-            this.Foto9.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto9.Name = "Foto9";
-            this.Foto9.Size = new System.Drawing.Size(122, 107);
-            this.Foto9.TabIndex = 49;
-            this.Foto9.UseVisualStyleBackColor = true;
+            this.Membro9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro9.BackgroundImage")));
+            this.Membro9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro9.Image = ((System.Drawing.Image)(resources.GetObject("Membro9.Image")));
+            this.Membro9.Location = new System.Drawing.Point(636, 296);
+            this.Membro9.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro9.Name = "Membro9";
+            this.Membro9.Size = new System.Drawing.Size(122, 107);
+            this.Membro9.TabIndex = 49;
+            this.Membro9.UseVisualStyleBackColor = true;
+            this.Membro9.Click += new System.EventHandler(this.Membro9_Click);
             // 
-            // Foto8
+            // Membro8
             // 
-            this.Foto8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto8.BackgroundImage")));
-            this.Foto8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto8.Image = ((System.Drawing.Image)(resources.GetObject("Foto8.Image")));
-            this.Foto8.Location = new System.Drawing.Point(439, 296);
-            this.Foto8.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto8.Name = "Foto8";
-            this.Foto8.Size = new System.Drawing.Size(122, 107);
-            this.Foto8.TabIndex = 46;
-            this.Foto8.UseVisualStyleBackColor = true;
+            this.Membro8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro8.BackgroundImage")));
+            this.Membro8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro8.Image = ((System.Drawing.Image)(resources.GetObject("Membro8.Image")));
+            this.Membro8.Location = new System.Drawing.Point(439, 296);
+            this.Membro8.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro8.Name = "Membro8";
+            this.Membro8.Size = new System.Drawing.Size(122, 107);
+            this.Membro8.TabIndex = 46;
+            this.Membro8.UseVisualStyleBackColor = true;
+            this.Membro8.Click += new System.EventHandler(this.Membro8_Click);
             // 
-            // Foto7
+            // Membro7
             // 
-            this.Foto7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto7.BackgroundImage")));
-            this.Foto7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto7.Image = ((System.Drawing.Image)(resources.GetObject("Foto7.Image")));
-            this.Foto7.Location = new System.Drawing.Point(236, 297);
-            this.Foto7.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto7.Name = "Foto7";
-            this.Foto7.Size = new System.Drawing.Size(122, 107);
-            this.Foto7.TabIndex = 43;
-            this.Foto7.UseVisualStyleBackColor = true;
+            this.Membro7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro7.BackgroundImage")));
+            this.Membro7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro7.Image = ((System.Drawing.Image)(resources.GetObject("Membro7.Image")));
+            this.Membro7.Location = new System.Drawing.Point(236, 297);
+            this.Membro7.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro7.Name = "Membro7";
+            this.Membro7.Size = new System.Drawing.Size(122, 107);
+            this.Membro7.TabIndex = 43;
+            this.Membro7.UseVisualStyleBackColor = true;
+            this.Membro7.Click += new System.EventHandler(this.Membro7_Click);
             // 
-            // Foto6
+            // Membro6
             // 
-            this.Foto6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto6.BackgroundImage")));
-            this.Foto6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto6.Image = ((System.Drawing.Image)(resources.GetObject("Foto6.Image")));
-            this.Foto6.Location = new System.Drawing.Point(41, 296);
-            this.Foto6.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto6.Name = "Foto6";
-            this.Foto6.Size = new System.Drawing.Size(122, 107);
-            this.Foto6.TabIndex = 40;
-            this.Foto6.UseVisualStyleBackColor = true;
+            this.Membro6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro6.BackgroundImage")));
+            this.Membro6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro6.Image = ((System.Drawing.Image)(resources.GetObject("Membro6.Image")));
+            this.Membro6.Location = new System.Drawing.Point(41, 296);
+            this.Membro6.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro6.Name = "Membro6";
+            this.Membro6.Size = new System.Drawing.Size(122, 107);
+            this.Membro6.TabIndex = 40;
+            this.Membro6.UseVisualStyleBackColor = true;
+            this.Membro6.Click += new System.EventHandler(this.Membro6_Click);
             // 
-            // Foto5
+            // Membro5
             // 
-            this.Foto5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto5.BackgroundImage")));
-            this.Foto5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto5.Image = ((System.Drawing.Image)(resources.GetObject("Foto5.Image")));
-            this.Foto5.Location = new System.Drawing.Point(856, 77);
-            this.Foto5.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto5.Name = "Foto5";
-            this.Foto5.Size = new System.Drawing.Size(122, 107);
-            this.Foto5.TabIndex = 37;
-            this.Foto5.UseVisualStyleBackColor = true;
+            this.Membro5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro5.BackgroundImage")));
+            this.Membro5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro5.Image = ((System.Drawing.Image)(resources.GetObject("Membro5.Image")));
+            this.Membro5.Location = new System.Drawing.Point(856, 77);
+            this.Membro5.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro5.Name = "Membro5";
+            this.Membro5.Size = new System.Drawing.Size(122, 107);
+            this.Membro5.TabIndex = 37;
+            this.Membro5.UseVisualStyleBackColor = true;
+            this.Membro5.Click += new System.EventHandler(this.Membro5_Click);
             // 
-            // Foto4
+            // Membro4
             // 
-            this.Foto4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto4.BackgroundImage")));
-            this.Foto4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto4.Image = ((System.Drawing.Image)(resources.GetObject("Foto4.Image")));
-            this.Foto4.Location = new System.Drawing.Point(636, 77);
-            this.Foto4.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto4.Name = "Foto4";
-            this.Foto4.Size = new System.Drawing.Size(122, 107);
-            this.Foto4.TabIndex = 34;
-            this.Foto4.UseVisualStyleBackColor = true;
+            this.Membro4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro4.BackgroundImage")));
+            this.Membro4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro4.Image = ((System.Drawing.Image)(resources.GetObject("Membro4.Image")));
+            this.Membro4.Location = new System.Drawing.Point(636, 77);
+            this.Membro4.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro4.Name = "Membro4";
+            this.Membro4.Size = new System.Drawing.Size(122, 107);
+            this.Membro4.TabIndex = 34;
+            this.Membro4.UseVisualStyleBackColor = true;
+            this.Membro4.Click += new System.EventHandler(this.Membro4_Click);
             // 
             // LabelNome3
             // 
@@ -474,44 +480,47 @@
             this.LabelFuncao3.Text = "Função";
             this.LabelFuncao3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
-            // Foto3
+            // Membro3
             // 
-            this.Foto3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto3.BackgroundImage")));
-            this.Foto3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto3.Image = ((System.Drawing.Image)(resources.GetObject("Foto3.Image")));
-            this.Foto3.Location = new System.Drawing.Point(436, 77);
-            this.Foto3.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto3.Name = "Foto3";
-            this.Foto3.Size = new System.Drawing.Size(122, 107);
-            this.Foto3.TabIndex = 13;
-            this.Foto3.UseVisualStyleBackColor = true;
+            this.Membro3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro3.BackgroundImage")));
+            this.Membro3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro3.Image = ((System.Drawing.Image)(resources.GetObject("Membro3.Image")));
+            this.Membro3.Location = new System.Drawing.Point(436, 77);
+            this.Membro3.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro3.Name = "Membro3";
+            this.Membro3.Size = new System.Drawing.Size(122, 107);
+            this.Membro3.TabIndex = 13;
+            this.Membro3.UseVisualStyleBackColor = true;
+            this.Membro3.Click += new System.EventHandler(this.Membro3_Click);
             // 
-            // Foto2
+            // Membro2
             // 
-            this.Foto2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto2.BackgroundImage")));
-            this.Foto2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto2.Image = ((System.Drawing.Image)(resources.GetObject("Foto2.Image")));
-            this.Foto2.Location = new System.Drawing.Point(236, 77);
-            this.Foto2.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto2.Name = "Foto2";
-            this.Foto2.Size = new System.Drawing.Size(122, 107);
-            this.Foto2.TabIndex = 10;
-            this.Foto2.UseVisualStyleBackColor = true;
+            this.Membro2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro2.BackgroundImage")));
+            this.Membro2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro2.Image = ((System.Drawing.Image)(resources.GetObject("Membro2.Image")));
+            this.Membro2.Location = new System.Drawing.Point(236, 77);
+            this.Membro2.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro2.Name = "Membro2";
+            this.Membro2.Size = new System.Drawing.Size(122, 107);
+            this.Membro2.TabIndex = 10;
+            this.Membro2.UseVisualStyleBackColor = true;
+            this.Membro2.Click += new System.EventHandler(this.Membro2_Click);
             // 
-            // Foto1
+            // Membro1
             // 
-            this.Foto1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Foto1.BackgroundImage")));
-            this.Foto1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Foto1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Foto1.Image = ((System.Drawing.Image)(resources.GetObject("Foto1.Image")));
-            this.Foto1.Location = new System.Drawing.Point(41, 78);
-            this.Foto1.Margin = new System.Windows.Forms.Padding(2);
-            this.Foto1.Name = "Foto1";
-            this.Foto1.Size = new System.Drawing.Size(122, 107);
-            this.Foto1.TabIndex = 7;
-            this.Foto1.UseVisualStyleBackColor = true;
+            this.Membro1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Membro1.BackgroundImage")));
+            this.Membro1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Membro1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Membro1.Image = ((System.Drawing.Image)(resources.GetObject("Membro1.Image")));
+            this.Membro1.Location = new System.Drawing.Point(41, 78);
+            this.Membro1.Margin = new System.Windows.Forms.Padding(2);
+            this.Membro1.Name = "Membro1";
+            this.Membro1.Size = new System.Drawing.Size(122, 107);
+            this.Membro1.TabIndex = 7;
+            this.Membro1.UseVisualStyleBackColor = true;
+            this.Membro1.Click += new System.EventHandler(this.Membro1_Click);
             // 
             // panel1
             // 
@@ -612,18 +621,18 @@
         #endregion
 
         private System.Windows.Forms.Panel PainelGremio;
-        private System.Windows.Forms.Button Foto10;
-        private System.Windows.Forms.Button Foto9;
-        private System.Windows.Forms.Button Foto8;
-        private System.Windows.Forms.Button Foto7;
-        private System.Windows.Forms.Button Foto6;
-        private System.Windows.Forms.Button Foto5;
-        private System.Windows.Forms.Button Foto4;
+        private System.Windows.Forms.Button Membro10;
+        private System.Windows.Forms.Button Membro9;
+        private System.Windows.Forms.Button Membro8;
+        private System.Windows.Forms.Button Membro7;
+        private System.Windows.Forms.Button Membro6;
+        private System.Windows.Forms.Button Membro5;
+        private System.Windows.Forms.Button Membro4;
         private System.Windows.Forms.Label LabelNome3;
         private System.Windows.Forms.Label LabelFuncao3;
-        private System.Windows.Forms.Button Foto3;
-        private System.Windows.Forms.Button Foto2;
-        private System.Windows.Forms.Button Foto1;
+        private System.Windows.Forms.Button Membro3;
+        private System.Windows.Forms.Button Membro2;
+        private System.Windows.Forms.Button Membro1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label LabelInstaDaChapa;
         private System.Windows.Forms.Label label7;

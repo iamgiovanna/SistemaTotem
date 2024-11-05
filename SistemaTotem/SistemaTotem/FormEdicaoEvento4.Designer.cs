@@ -41,7 +41,6 @@
             this.BotaoExcluir = new System.Windows.Forms.Button();
             this.BotaoSalvar = new System.Windows.Forms.Button();
             this.BotaoAlterar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.FlowPainelEvento.SuspendLayout();
             this.PainelEvento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).BeginInit();
@@ -184,20 +183,6 @@
             this.BotaoAlterar.Text = "ALTERAR";
             this.BotaoAlterar.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(31, 491);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 50);
-            this.button1.TabIndex = 16;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // FormEdicaoEvento4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,9 +190,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1040, 601);
             this.Controls.Add(this.FlowPainelEvento);
-            this.Controls.Add(this.button1);
             this.Name = "FormEdicaoEvento4";
-            this.Text = "FormEdicaoEvento4";
+            this.Text = "Edição - Evento ";
             this.Load += new System.EventHandler(this.FormEdicaoEvento4_Load);
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
@@ -224,7 +208,6 @@
         private System.Windows.Forms.Button BotaoExcluir;
         private System.Windows.Forms.Button BotaoSalvar;
         private System.Windows.Forms.Button BotaoAlterar;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label InfoEvento;
         private System.Windows.Forms.Label label3;

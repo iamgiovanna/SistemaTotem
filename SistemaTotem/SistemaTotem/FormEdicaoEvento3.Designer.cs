@@ -41,7 +41,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.InfoEvento = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.FlowPainelEvento.SuspendLayout();
             this.PainelEvento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FotoPerfil)).BeginInit();
@@ -185,20 +184,6 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "Evento:";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(33, 494);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 50);
-            this.button1.TabIndex = 14;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // FormEdicaoEvento3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -206,9 +191,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1040, 599);
             this.Controls.Add(this.FlowPainelEvento);
-            this.Controls.Add(this.button1);
             this.Name = "FormEdicaoEvento3";
-            this.Text = "FormEdicaoEvento3";
+            this.Text = "Edição - Evento ";
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
             this.PainelEvento.PerformLayout();
@@ -221,7 +205,6 @@
 
         private System.Windows.Forms.FlowLayoutPanel FlowPainelEvento;
         private System.Windows.Forms.Panel PainelEvento;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label InfoEvento;

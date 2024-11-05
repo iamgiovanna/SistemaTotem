@@ -31,14 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EventosForm));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Btn7 = new System.Windows.Forms.Button();
-            this.Btn6 = new System.Windows.Forms.Button();
-            this.Btn5 = new System.Windows.Forms.Button();
-            this.Btn4 = new System.Windows.Forms.Button();
-            this.Btn3 = new System.Windows.Forms.Button();
-            this.Btn2 = new System.Windows.Forms.Button();
+            this.BtnEve7 = new System.Windows.Forms.Button();
+            this.BtnEve6 = new System.Windows.Forms.Button();
+            this.BtnEve5 = new System.Windows.Forms.Button();
+            this.BtnEve4 = new System.Windows.Forms.Button();
+            this.BtnEve3 = new System.Windows.Forms.Button();
+            this.BtnEve2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Btn1 = new System.Windows.Forms.Button();
+            this.BtnEve1 = new System.Windows.Forms.Button();
             this.BtnVoltar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -56,97 +56,103 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.panel1.Controls.Add(this.Btn7);
-            this.panel1.Controls.Add(this.Btn6);
-            this.panel1.Controls.Add(this.Btn5);
-            this.panel1.Controls.Add(this.Btn4);
-            this.panel1.Controls.Add(this.Btn3);
-            this.panel1.Controls.Add(this.Btn2);
+            this.panel1.Controls.Add(this.BtnEve7);
+            this.panel1.Controls.Add(this.BtnEve6);
+            this.panel1.Controls.Add(this.BtnEve5);
+            this.panel1.Controls.Add(this.BtnEve4);
+            this.panel1.Controls.Add(this.BtnEve3);
+            this.panel1.Controls.Add(this.BtnEve2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.Btn1);
+            this.panel1.Controls.Add(this.BtnEve1);
             this.panel1.Location = new System.Drawing.Point(161, 125);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1135, 509);
             this.panel1.TabIndex = 2;
             // 
-            // Btn7
+            // BtnEve7
             // 
-            this.Btn7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn7.BackgroundImage")));
-            this.Btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Btn7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn7.Image = ((System.Drawing.Image)(resources.GetObject("Btn7.Image")));
-            this.Btn7.Location = new System.Drawing.Point(764, 306);
-            this.Btn7.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn7.Name = "Btn7";
-            this.Btn7.Size = new System.Drawing.Size(194, 149);
-            this.Btn7.TabIndex = 12;
-            this.Btn7.UseVisualStyleBackColor = true;
+            this.BtnEve7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnEve7.BackgroundImage")));
+            this.BtnEve7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEve7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnEve7.Image = ((System.Drawing.Image)(resources.GetObject("BtnEve7.Image")));
+            this.BtnEve7.Location = new System.Drawing.Point(764, 306);
+            this.BtnEve7.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEve7.Name = "BtnEve7";
+            this.BtnEve7.Size = new System.Drawing.Size(194, 149);
+            this.BtnEve7.TabIndex = 12;
+            this.BtnEve7.UseVisualStyleBackColor = true;
+            this.BtnEve7.Click += new System.EventHandler(this.BtnEve7_Click);
             // 
-            // Btn6
+            // BtnEve6
             // 
-            this.Btn6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn6.BackgroundImage")));
-            this.Btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Btn6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn6.Image = ((System.Drawing.Image)(resources.GetObject("Btn6.Image")));
-            this.Btn6.Location = new System.Drawing.Point(478, 306);
-            this.Btn6.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn6.Name = "Btn6";
-            this.Btn6.Size = new System.Drawing.Size(194, 149);
-            this.Btn6.TabIndex = 11;
-            this.Btn6.UseVisualStyleBackColor = true;
+            this.BtnEve6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnEve6.BackgroundImage")));
+            this.BtnEve6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEve6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnEve6.Image = ((System.Drawing.Image)(resources.GetObject("BtnEve6.Image")));
+            this.BtnEve6.Location = new System.Drawing.Point(478, 306);
+            this.BtnEve6.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEve6.Name = "BtnEve6";
+            this.BtnEve6.Size = new System.Drawing.Size(194, 149);
+            this.BtnEve6.TabIndex = 11;
+            this.BtnEve6.UseVisualStyleBackColor = true;
+            this.BtnEve6.Click += new System.EventHandler(this.BtnEve6_Click);
             // 
-            // Btn5
+            // BtnEve5
             // 
-            this.Btn5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn5.BackgroundImage")));
-            this.Btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Btn5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn5.Image = ((System.Drawing.Image)(resources.GetObject("Btn5.Image")));
-            this.Btn5.Location = new System.Drawing.Point(180, 306);
-            this.Btn5.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn5.Name = "Btn5";
-            this.Btn5.Size = new System.Drawing.Size(194, 149);
-            this.Btn5.TabIndex = 10;
-            this.Btn5.UseVisualStyleBackColor = true;
+            this.BtnEve5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnEve5.BackgroundImage")));
+            this.BtnEve5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEve5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnEve5.Image = ((System.Drawing.Image)(resources.GetObject("BtnEve5.Image")));
+            this.BtnEve5.Location = new System.Drawing.Point(180, 306);
+            this.BtnEve5.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEve5.Name = "BtnEve5";
+            this.BtnEve5.Size = new System.Drawing.Size(194, 149);
+            this.BtnEve5.TabIndex = 10;
+            this.BtnEve5.UseVisualStyleBackColor = true;
+            this.BtnEve5.Click += new System.EventHandler(this.BtnEve5_Click);
             // 
-            // Btn4
+            // BtnEve4
             // 
-            this.Btn4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn4.BackgroundImage")));
-            this.Btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Btn4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn4.Image = ((System.Drawing.Image)(resources.GetObject("Btn4.Image")));
-            this.Btn4.Location = new System.Drawing.Point(861, 90);
-            this.Btn4.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn4.Name = "Btn4";
-            this.Btn4.Size = new System.Drawing.Size(194, 149);
-            this.Btn4.TabIndex = 9;
-            this.Btn4.UseVisualStyleBackColor = true;
+            this.BtnEve4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnEve4.BackgroundImage")));
+            this.BtnEve4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEve4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnEve4.Image = ((System.Drawing.Image)(resources.GetObject("BtnEve4.Image")));
+            this.BtnEve4.Location = new System.Drawing.Point(861, 90);
+            this.BtnEve4.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEve4.Name = "BtnEve4";
+            this.BtnEve4.Size = new System.Drawing.Size(194, 149);
+            this.BtnEve4.TabIndex = 9;
+            this.BtnEve4.UseVisualStyleBackColor = true;
+            this.BtnEve4.Click += new System.EventHandler(this.BtnEve4_Click);
             // 
-            // Btn3
+            // BtnEve3
             // 
-            this.Btn3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn3.BackgroundImage")));
-            this.Btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Btn3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn3.Image = ((System.Drawing.Image)(resources.GetObject("Btn3.Image")));
-            this.Btn3.Location = new System.Drawing.Point(609, 90);
-            this.Btn3.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn3.Name = "Btn3";
-            this.Btn3.Size = new System.Drawing.Size(194, 149);
-            this.Btn3.TabIndex = 8;
-            this.Btn3.UseVisualStyleBackColor = true;
+            this.BtnEve3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnEve3.BackgroundImage")));
+            this.BtnEve3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEve3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnEve3.Image = ((System.Drawing.Image)(resources.GetObject("BtnEve3.Image")));
+            this.BtnEve3.Location = new System.Drawing.Point(609, 90);
+            this.BtnEve3.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEve3.Name = "BtnEve3";
+            this.BtnEve3.Size = new System.Drawing.Size(194, 149);
+            this.BtnEve3.TabIndex = 8;
+            this.BtnEve3.UseVisualStyleBackColor = true;
+            this.BtnEve3.Click += new System.EventHandler(this.BtnEve3_Click);
             // 
-            // Btn2
+            // BtnEve2
             // 
-            this.Btn2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn2.BackgroundImage")));
-            this.Btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Btn2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn2.Image = ((System.Drawing.Image)(resources.GetObject("Btn2.Image")));
-            this.Btn2.Location = new System.Drawing.Point(335, 90);
-            this.Btn2.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn2.Name = "Btn2";
-            this.Btn2.Size = new System.Drawing.Size(194, 149);
-            this.Btn2.TabIndex = 7;
-            this.Btn2.UseVisualStyleBackColor = true;
+            this.BtnEve2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnEve2.BackgroundImage")));
+            this.BtnEve2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEve2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnEve2.Image = ((System.Drawing.Image)(resources.GetObject("BtnEve2.Image")));
+            this.BtnEve2.Location = new System.Drawing.Point(335, 90);
+            this.BtnEve2.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEve2.Name = "BtnEve2";
+            this.BtnEve2.Size = new System.Drawing.Size(194, 149);
+            this.BtnEve2.TabIndex = 7;
+            this.BtnEve2.UseVisualStyleBackColor = true;
+            this.BtnEve2.Click += new System.EventHandler(this.BtnEve2_Click);
             // 
             // label1
             // 
@@ -160,18 +166,19 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Eventos da Etec da Zona Leste";
             // 
-            // Btn1
+            // BtnEve1
             // 
-            this.Btn1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btn1.BackgroundImage")));
-            this.Btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Btn1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn1.Image = ((System.Drawing.Image)(resources.GetObject("Btn1.Image")));
-            this.Btn1.Location = new System.Drawing.Point(66, 90);
-            this.Btn1.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn1.Name = "Btn1";
-            this.Btn1.Size = new System.Drawing.Size(194, 149);
-            this.Btn1.TabIndex = 4;
-            this.Btn1.UseVisualStyleBackColor = true;
+            this.BtnEve1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnEve1.BackgroundImage")));
+            this.BtnEve1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEve1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnEve1.Image = ((System.Drawing.Image)(resources.GetObject("BtnEve1.Image")));
+            this.BtnEve1.Location = new System.Drawing.Point(66, 90);
+            this.BtnEve1.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnEve1.Name = "BtnEve1";
+            this.BtnEve1.Size = new System.Drawing.Size(194, 149);
+            this.BtnEve1.TabIndex = 4;
+            this.BtnEve1.UseVisualStyleBackColor = true;
+            this.BtnEve1.Click += new System.EventHandler(this.BtnEve1_Click);
             // 
             // BtnVoltar
             // 
@@ -200,6 +207,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "EventosForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Text = "Eventos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -210,14 +218,14 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button Btn7;
-        private System.Windows.Forms.Button Btn6;
-        private System.Windows.Forms.Button Btn5;
-        private System.Windows.Forms.Button Btn4;
-        private System.Windows.Forms.Button Btn3;
-        private System.Windows.Forms.Button Btn2;
+        private System.Windows.Forms.Button BtnEve7;
+        private System.Windows.Forms.Button BtnEve6;
+        private System.Windows.Forms.Button BtnEve5;
+        private System.Windows.Forms.Button BtnEve4;
+        private System.Windows.Forms.Button BtnEve3;
+        private System.Windows.Forms.Button BtnEve2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Btn1;
+        private System.Windows.Forms.Button BtnEve1;
         private System.Windows.Forms.Button BtnVoltar;
     }
 }

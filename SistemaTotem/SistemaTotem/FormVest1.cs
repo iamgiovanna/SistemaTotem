@@ -24,7 +24,17 @@ namespace SistemaTotem
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //alterar
+        }
 
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            //salvar 
+        }
+
+        private void btnExluir_Click(object sender, EventArgs e)
+        {
+            //excluir   
         }
     }
 }

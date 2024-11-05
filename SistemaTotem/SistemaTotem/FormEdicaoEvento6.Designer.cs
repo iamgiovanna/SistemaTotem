@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEdicaoEvento6));
             this.FlowPainelEvento = new System.Windows.Forms.FlowLayoutPanel();
             this.PainelEvento = new System.Windows.Forms.Panel();
+            this.txtEventos = new System.Windows.Forms.TextBox();
+            this.txtDesc = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -39,9 +41,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.txtEventos = new System.Windows.Forms.TextBox();
-            this.txtDesc = new System.Windows.Forms.TextBox();
             this.FlowPainelEvento.SuspendLayout();
             this.PainelEvento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -73,6 +72,22 @@
             this.PainelEvento.Name = "PainelEvento";
             this.PainelEvento.Size = new System.Drawing.Size(768, 499);
             this.PainelEvento.TabIndex = 0;
+            // 
+            // txtEventos
+            // 
+            this.txtEventos.Location = new System.Drawing.Point(205, 262);
+            this.txtEventos.Multiline = true;
+            this.txtEventos.Name = "txtEventos";
+            this.txtEventos.Size = new System.Drawing.Size(148, 34);
+            this.txtEventos.TabIndex = 20;
+            // 
+            // txtDesc
+            // 
+            this.txtDesc.Location = new System.Drawing.Point(205, 333);
+            this.txtDesc.Multiline = true;
+            this.txtDesc.Name = "txtDesc";
+            this.txtDesc.Size = new System.Drawing.Size(435, 125);
+            this.txtDesc.TabIndex = 19;
             // 
             // button1
             // 
@@ -156,36 +171,6 @@
             this.button6.Text = "ALTERAR";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(46, 502);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 50);
-            this.button7.TabIndex = 30;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // txtEventos
-            // 
-            this.txtEventos.Location = new System.Drawing.Point(205, 262);
-            this.txtEventos.Multiline = true;
-            this.txtEventos.Name = "txtEventos";
-            this.txtEventos.Size = new System.Drawing.Size(148, 34);
-            this.txtEventos.TabIndex = 20;
-            // 
-            // txtDesc
-            // 
-            this.txtDesc.Location = new System.Drawing.Point(205, 333);
-            this.txtDesc.Multiline = true;
-            this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(435, 125);
-            this.txtDesc.TabIndex = 19;
-            // 
             // FormEdicaoEvento6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,9 +178,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1043, 601);
             this.Controls.Add(this.FlowPainelEvento);
-            this.Controls.Add(this.button7);
             this.Name = "FormEdicaoEvento6";
-            this.Text = "FormEdicaoEvento6";
+            this.Text = "Edição - Evento ";
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
             this.PainelEvento.PerformLayout();
@@ -216,7 +200,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TextBox txtEventos;
         private System.Windows.Forms.TextBox txtDesc;
     }

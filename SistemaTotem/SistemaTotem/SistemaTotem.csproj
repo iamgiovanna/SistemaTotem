@@ -124,6 +124,12 @@
     <Compile Include="EventosForm.Designer.cs">
       <DependentUpon>EventosForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEdicaoEvento5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoEvento5.Designer.cs">
+      <DependentUpon>FormEdicaoEvento5.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,12 +171,6 @@
     </Compile>
     <Compile Include="FormEdicaoEvento7.Designer.cs">
       <DependentUpon>FormEdicaoEvento7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormEvento5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormEvento5.Designer.cs">
-      <DependentUpon>FormEvento5.cs</DependentUpon>
     </Compile>
     <Compile Include="EdicaoMembrosGremio2.cs">
       <SubType>Form</SubType>
@@ -267,6 +267,9 @@
     <EmbeddedResource Include="EventosForm.resx">
       <DependentUpon>EventosForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoEvento5.resx">
+      <DependentUpon>FormEdicaoEvento5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,9 +290,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEdicaoEvento7.resx">
       <DependentUpon>FormEdicaoEvento7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEvento5.resx">
-      <DependentUpon>FormEvento5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EdicaoMembrosGremio2.resx">
       <DependentUpon>EdicaoMembrosGremio2.cs</DependentUpon>

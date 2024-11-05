@@ -1,6 +1,6 @@
 ﻿namespace SistemaTotem
 {
-    partial class FormEdicaoEvento7
+    partial class FormEdicaoEvento5
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEdicaoEvento7));
-            this.FlowPainelEvento = new System.Windows.Forms.FlowLayoutPanel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEdicaoEvento5));
             this.PainelEvento = new System.Windows.Forms.Panel();
             this.txtEventos = new System.Windows.Forms.TextBox();
             this.txtDesc = new System.Windows.Forms.TextBox();
@@ -41,23 +40,13 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.FlowPainelEvento.SuspendLayout();
             this.PainelEvento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // FlowPainelEvento
-            // 
-            this.FlowPainelEvento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.FlowPainelEvento.Controls.Add(this.PainelEvento);
-            this.FlowPainelEvento.Location = new System.Drawing.Point(163, 43);
-            this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(2);
-            this.FlowPainelEvento.Name = "FlowPainelEvento";
-            this.FlowPainelEvento.Size = new System.Drawing.Size(774, 506);
-            this.FlowPainelEvento.TabIndex = 29;
-            // 
             // PainelEvento
             // 
+            this.PainelEvento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.PainelEvento.Controls.Add(this.txtEventos);
             this.PainelEvento.Controls.Add(this.txtDesc);
             this.PainelEvento.Controls.Add(this.button1);
@@ -68,10 +57,10 @@
             this.PainelEvento.Controls.Add(this.button4);
             this.PainelEvento.Controls.Add(this.button5);
             this.PainelEvento.Controls.Add(this.button6);
-            this.PainelEvento.Location = new System.Drawing.Point(3, 3);
+            this.PainelEvento.Location = new System.Drawing.Point(134, 51);
             this.PainelEvento.Name = "PainelEvento";
             this.PainelEvento.Size = new System.Drawing.Size(768, 499);
-            this.PainelEvento.TabIndex = 0;
+            this.PainelEvento.TabIndex = 1;
             // 
             // txtEventos
             // 
@@ -171,16 +160,15 @@
             this.button6.Text = "ALTERAR";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // FormEdicaoEvento7
+            // FormEdicaoEvento5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1036, 601);
-            this.Controls.Add(this.FlowPainelEvento);
-            this.Name = "FormEdicaoEvento7";
+            this.Controls.Add(this.PainelEvento);
+            this.Name = "FormEdicaoEvento5";
             this.Text = "Edição - Evento";
-            this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
             this.PainelEvento.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -190,8 +178,9 @@
 
         #endregion
 
-        private System.Windows.Forms.FlowLayoutPanel FlowPainelEvento;
         private System.Windows.Forms.Panel PainelEvento;
+        private System.Windows.Forms.TextBox txtEventos;
+        private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
@@ -200,7 +189,5 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox txtEventos;
-        private System.Windows.Forms.TextBox txtDesc;
     }
 }

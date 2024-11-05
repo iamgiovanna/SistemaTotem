@@ -16,5 +16,20 @@ namespace SistemaTotem
         {
             InitializeComponent();
         }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            //excluir
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            //salvar
+        }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+            //alterar
+        }
     }
 }

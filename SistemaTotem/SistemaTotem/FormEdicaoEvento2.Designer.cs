@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEdicaoEvento2));
             this.FlowPainelEvento = new System.Windows.Forms.FlowLayoutPanel();
             this.PainelEvento = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.FotoPerfil = new System.Windows.Forms.PictureBox();
             this.btnFoto = new System.Windows.Forms.Button();
@@ -73,20 +72,6 @@
             this.PainelEvento.Name = "PainelEvento";
             this.PainelEvento.Size = new System.Drawing.Size(768, 499);
             this.PainelEvento.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(27, 488);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 53);
-            this.button1.TabIndex = 12;
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -205,9 +190,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1040, 599);
             this.Controls.Add(this.FlowPainelEvento);
-            this.Controls.Add(this.button1);
             this.Name = "FormEdicaoEvento2";
-            this.Text = "FormEdicaoEvento2";
+            this.Text = "Edição - Evento ";
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
             this.PainelEvento.PerformLayout();
@@ -220,7 +204,6 @@
 
         private System.Windows.Forms.FlowLayoutPanel FlowPainelEvento;
         private System.Windows.Forms.Panel PainelEvento;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox FotoPerfil;
         private System.Windows.Forms.Button btnFoto;

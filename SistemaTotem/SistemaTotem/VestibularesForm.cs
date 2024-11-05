@@ -24,5 +24,29 @@ namespace SistemaTotem
             telaIncialForm.Show();
             this.Hide();
         }
+
+        private void BtnVest3_Click(object sender, EventArgs e)
+        {
+            //vestibular provão paulista
+            FormVest2 telaVest = new FormVest2();
+            telaVest.Show();
+            //this.Hide();
+        }
+
+        private void BtnVest1_Click(object sender, EventArgs e)
+        {
+            //ENEM
+             FormVest1 telaVest = new FormVest1();
+             telaVest.Show();
+             //this.Hide();
+        }
+
+        private void BtnVest4_Click(object sender, EventArgs e)
+        {
+            // fuvest
+            FormVest3 telaVest = new FormVest3();
+            telaVest.Show();
+
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SistemaTotem
 {
-    public partial class FormEvento5 : Form
+    public partial class FormEdicaoEvento5 : Form
     {
-        public FormEvento5()
+        public FormEdicaoEvento5()
         {
             InitializeComponent();
         }

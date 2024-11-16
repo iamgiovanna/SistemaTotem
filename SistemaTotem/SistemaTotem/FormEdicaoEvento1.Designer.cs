@@ -36,8 +36,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.FotoPerfil = new System.Windows.Forms.PictureBox();
             this.btnFoto = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Desc = new System.Windows.Forms.Label();
+            this.Evento = new System.Windows.Forms.Label();
             this.BotaoExcluir = new System.Windows.Forms.Button();
             this.BotaoSalvar = new System.Windows.Forms.Button();
             this.BotaoAlterar = new System.Windows.Forms.Button();
@@ -63,8 +63,8 @@
             this.PainelEvento.Controls.Add(this.button2);
             this.PainelEvento.Controls.Add(this.FotoPerfil);
             this.PainelEvento.Controls.Add(this.btnFoto);
-            this.PainelEvento.Controls.Add(this.label2);
-            this.PainelEvento.Controls.Add(this.label1);
+            this.PainelEvento.Controls.Add(this.Desc);
+            this.PainelEvento.Controls.Add(this.Evento);
             this.PainelEvento.Controls.Add(this.BotaoExcluir);
             this.PainelEvento.Controls.Add(this.BotaoSalvar);
             this.PainelEvento.Controls.Add(this.BotaoAlterar);
@@ -119,27 +119,27 @@
             this.btnFoto.TabIndex = 24;
             this.btnFoto.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // Desc
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(54, 325);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 22);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "Descrição:";
+            this.Desc.AutoSize = true;
+            this.Desc.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Desc.Location = new System.Drawing.Point(54, 325);
+            this.Desc.Name = "Desc";
+            this.Desc.Size = new System.Drawing.Size(101, 22);
+            this.Desc.TabIndex = 22;
+            this.Desc.Text = "Descrição:";
             // 
-            // label1
+            // Evento
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(54, 258);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 22);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Evento:";
+            this.Evento.AutoSize = true;
+            this.Evento.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Evento.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Evento.Location = new System.Drawing.Point(54, 258);
+            this.Evento.Name = "Evento";
+            this.Evento.Size = new System.Drawing.Size(74, 22);
+            this.Evento.TabIndex = 20;
+            this.Evento.Text = "Evento:";
             // 
             // BotaoExcluir
             // 
@@ -160,6 +160,7 @@
             this.BotaoSalvar.TabIndex = 18;
             this.BotaoSalvar.Text = "SALVAR";
             this.BotaoSalvar.UseVisualStyleBackColor = true;
+            this.BotaoSalvar.Click += new System.EventHandler(this.BotaoSalvar_Click);
             // 
             // BotaoAlterar
             // 
@@ -194,8 +195,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox FotoPerfil;
         private System.Windows.Forms.Button btnFoto;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Desc;
+        private System.Windows.Forms.Label Evento;
         private System.Windows.Forms.Button BotaoExcluir;
         private System.Windows.Forms.Button BotaoSalvar;
         private System.Windows.Forms.Button BotaoAlterar;

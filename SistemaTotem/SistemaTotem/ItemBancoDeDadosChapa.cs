@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace SistemaTotem
 {
-    public class ItemBancoDeDados
+    public class ItemBancoDeDadosChapa
     {
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
 
         public string Id { get; set; }
-        public string Evento { get; set;}
-        public string Descricao { get; set;}
-
+        public string NomeAluno { get; set; }
+        public string Funcao { get; set; }
     }
 }

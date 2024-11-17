@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEdicaoEvento4));
             this.FlowPainelEvento = new System.Windows.Forms.FlowLayoutPanel();
             this.PainelEvento = new System.Windows.Forms.Panel();
+            this.txtDesc = new System.Windows.Forms.TextBox();
+            this.TxtEventos = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.FotoPerfil = new System.Windows.Forms.PictureBox();
             this.btnFoto = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.InfoEvento = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BotaoExcluir = new System.Windows.Forms.Button();
             this.BotaoSalvar = new System.Windows.Forms.Button();
@@ -50,35 +50,55 @@
             // 
             this.FlowPainelEvento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.FlowPainelEvento.Controls.Add(this.PainelEvento);
-            this.FlowPainelEvento.Location = new System.Drawing.Point(145, 35);
-            this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(2);
+            this.FlowPainelEvento.Location = new System.Drawing.Point(193, 43);
+            this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FlowPainelEvento.Name = "FlowPainelEvento";
-            this.FlowPainelEvento.Size = new System.Drawing.Size(774, 506);
+            this.FlowPainelEvento.Size = new System.Drawing.Size(1032, 623);
             this.FlowPainelEvento.TabIndex = 15;
             // 
             // PainelEvento
             // 
+            this.PainelEvento.Controls.Add(this.txtDesc);
+            this.PainelEvento.Controls.Add(this.TxtEventos);
             this.PainelEvento.Controls.Add(this.button2);
             this.PainelEvento.Controls.Add(this.FotoPerfil);
             this.PainelEvento.Controls.Add(this.btnFoto);
-            this.PainelEvento.Controls.Add(this.label3);
             this.PainelEvento.Controls.Add(this.label2);
-            this.PainelEvento.Controls.Add(this.InfoEvento);
             this.PainelEvento.Controls.Add(this.label1);
             this.PainelEvento.Controls.Add(this.BotaoExcluir);
             this.PainelEvento.Controls.Add(this.BotaoSalvar);
             this.PainelEvento.Controls.Add(this.BotaoAlterar);
-            this.PainelEvento.Location = new System.Drawing.Point(3, 3);
+            this.PainelEvento.Location = new System.Drawing.Point(4, 4);
+            this.PainelEvento.Margin = new System.Windows.Forms.Padding(4);
             this.PainelEvento.Name = "PainelEvento";
-            this.PainelEvento.Size = new System.Drawing.Size(768, 499);
+            this.PainelEvento.Size = new System.Drawing.Size(1024, 614);
             this.PainelEvento.TabIndex = 0;
+            // 
+            // txtDesc
+            // 
+            this.txtDesc.Location = new System.Drawing.Point(270, 412);
+            this.txtDesc.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDesc.Multiline = true;
+            this.txtDesc.Name = "txtDesc";
+            this.txtDesc.Size = new System.Drawing.Size(579, 153);
+            this.txtDesc.TabIndex = 31;
+            // 
+            // TxtEventos
+            // 
+            this.TxtEventos.Location = new System.Drawing.Point(270, 322);
+            this.TxtEventos.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtEventos.Multiline = true;
+            this.TxtEventos.Name = "TxtEventos";
+            this.TxtEventos.Size = new System.Drawing.Size(196, 41);
+            this.TxtEventos.TabIndex = 30;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(598, 187);
+            this.button2.Location = new System.Drawing.Point(797, 230);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 41);
+            this.button2.Size = new System.Drawing.Size(113, 50);
             this.button2.TabIndex = 16;
             this.button2.Text = "ESCOLHER FOTO";
             this.button2.UseVisualStyleBackColor = true;
@@ -87,9 +107,10 @@
             // 
             this.FotoPerfil.BackColor = System.Drawing.Color.White;
             this.FotoPerfil.Image = ((System.Drawing.Image)(resources.GetObject("FotoPerfil.Image")));
-            this.FotoPerfil.Location = new System.Drawing.Point(395, 77);
+            this.FotoPerfil.Location = new System.Drawing.Point(527, 95);
+            this.FotoPerfil.Margin = new System.Windows.Forms.Padding(4);
             this.FotoPerfil.Name = "FotoPerfil";
-            this.FotoPerfil.Size = new System.Drawing.Size(107, 108);
+            this.FotoPerfil.Size = new System.Drawing.Size(143, 133);
             this.FotoPerfil.TabIndex = 15;
             this.FotoPerfil.TabStop = false;
             // 
@@ -97,102 +118,82 @@
             // 
             this.btnFoto.BackColor = System.Drawing.Color.White;
             this.btnFoto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFoto.Location = new System.Drawing.Point(323, 42);
+            this.btnFoto.Location = new System.Drawing.Point(431, 52);
+            this.btnFoto.Margin = new System.Windows.Forms.Padding(4);
             this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Size = new System.Drawing.Size(255, 186);
+            this.btnFoto.Size = new System.Drawing.Size(340, 229);
             this.btnFoto.TabIndex = 14;
             this.btnFoto.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.label3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label3.Location = new System.Drawing.Point(200, 262);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 37);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Nome do Evento";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(54, 329);
+            this.label2.Location = new System.Drawing.Point(72, 405);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 22);
+            this.label2.Size = new System.Drawing.Size(128, 28);
             this.label2.TabIndex = 12;
             this.label2.Text = "Descrição:";
-            // 
-            // InfoEvento
-            // 
-            this.InfoEvento.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.InfoEvento.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoEvento.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.InfoEvento.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.InfoEvento.Location = new System.Drawing.Point(200, 329);
-            this.InfoEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.InfoEvento.Name = "InfoEvento";
-            this.InfoEvento.Size = new System.Drawing.Size(514, 144);
-            this.InfoEvento.TabIndex = 11;
-            this.InfoEvento.Text = resources.GetString("InfoEvento.Text");
-            this.InfoEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(54, 262);
+            this.label1.Location = new System.Drawing.Point(72, 322);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 22);
+            this.label1.Size = new System.Drawing.Size(95, 28);
             this.label1.TabIndex = 10;
             this.label1.Text = "Evento:";
             // 
             // BotaoExcluir
             // 
             this.BotaoExcluir.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotaoExcluir.Location = new System.Drawing.Point(155, 95);
+            this.BotaoExcluir.Location = new System.Drawing.Point(207, 117);
+            this.BotaoExcluir.Margin = new System.Windows.Forms.Padding(4);
             this.BotaoExcluir.Name = "BotaoExcluir";
-            this.BotaoExcluir.Size = new System.Drawing.Size(85, 41);
+            this.BotaoExcluir.Size = new System.Drawing.Size(113, 50);
             this.BotaoExcluir.TabIndex = 8;
             this.BotaoExcluir.Text = "EXCLUIR";
             this.BotaoExcluir.UseVisualStyleBackColor = true;
+            this.BotaoExcluir.Click += new System.EventHandler(this.BotaoExcluir_Click);
             // 
             // BotaoSalvar
             // 
             this.BotaoSalvar.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotaoSalvar.Location = new System.Drawing.Point(155, 33);
+            this.BotaoSalvar.Location = new System.Drawing.Point(207, 41);
+            this.BotaoSalvar.Margin = new System.Windows.Forms.Padding(4);
             this.BotaoSalvar.Name = "BotaoSalvar";
-            this.BotaoSalvar.Size = new System.Drawing.Size(85, 41);
+            this.BotaoSalvar.Size = new System.Drawing.Size(113, 50);
             this.BotaoSalvar.TabIndex = 7;
             this.BotaoSalvar.Text = "SALVAR";
             this.BotaoSalvar.UseVisualStyleBackColor = true;
+            this.BotaoSalvar.Click += new System.EventHandler(this.BotaoSalvar_Click);
             // 
             // BotaoAlterar
             // 
             this.BotaoAlterar.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotaoAlterar.Location = new System.Drawing.Point(155, 155);
+            this.BotaoAlterar.Location = new System.Drawing.Point(207, 191);
+            this.BotaoAlterar.Margin = new System.Windows.Forms.Padding(4);
             this.BotaoAlterar.Name = "BotaoAlterar";
-            this.BotaoAlterar.Size = new System.Drawing.Size(85, 41);
+            this.BotaoAlterar.Size = new System.Drawing.Size(113, 50);
             this.BotaoAlterar.TabIndex = 6;
             this.BotaoAlterar.Text = "ALTERAR";
             this.BotaoAlterar.UseVisualStyleBackColor = true;
             // 
             // FormEdicaoEvento4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1040, 601);
+            this.ClientSize = new System.Drawing.Size(1387, 740);
             this.Controls.Add(this.FlowPainelEvento);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormEdicaoEvento4";
             this.Text = "Edição - Evento ";
-            this.Load += new System.EventHandler(this.FormEdicaoEvento4_Load);
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
             this.PainelEvento.PerformLayout();
@@ -209,11 +210,11 @@
         private System.Windows.Forms.Button BotaoSalvar;
         private System.Windows.Forms.Button BotaoAlterar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label InfoEvento;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox FotoPerfil;
         private System.Windows.Forms.Button btnFoto;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox TxtEventos;
+        private System.Windows.Forms.TextBox txtDesc;
     }
 }

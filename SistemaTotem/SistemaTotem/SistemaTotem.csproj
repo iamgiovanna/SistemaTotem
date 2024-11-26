@@ -303,6 +303,7 @@
     </Compile>
     <Compile Include="ItemBancoDeDados.cs" />
     <Compile Include="ItemBancoDeDadosChapa.cs" />
+    <Compile Include="ItemSecretaria.cs" />
     <Compile Include="MapaForm.cs">
       <SubType>Form</SubType>
     </Compile>

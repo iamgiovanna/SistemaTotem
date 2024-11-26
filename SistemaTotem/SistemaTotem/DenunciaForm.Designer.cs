@@ -37,7 +37,6 @@
             this.LabelDenuncia2 = new System.Windows.Forms.Label();
             this.LabelDenuncia1 = new System.Windows.Forms.Label();
             this.BtnVoltar = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.PainelDenuncia.SuspendLayout();
             this.SuspendLayout();
@@ -130,26 +129,12 @@
             this.BtnVoltar.UseVisualStyleBackColor = false;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
-            // btnEditar
-            // 
-            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.btnEditar.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEditar.Location = new System.Drawing.Point(98, 267);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(107, 60);
-            this.btnEditar.TabIndex = 18;
-            this.btnEditar.Text = "EDITAR";
-            this.btnEditar.UseVisualStyleBackColor = false;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
             // DenunciaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1391, 729);
-            this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.BtnVoltar);
             this.Controls.Add(this.PainelDenuncia);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -173,6 +158,5 @@
         private System.Windows.Forms.Label LabelDenuncia2;
         private System.Windows.Forms.Label LabelDenuncia1;
         private System.Windows.Forms.Button BtnVoltar;
-        private System.Windows.Forms.Button btnEditar;
     }
 }
